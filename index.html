@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Mochiy+Pop+One&family=Poppins:wght@400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="img">
+        <img src="./logo.22bf709605809177256c.png">
+    </div>
+    <div class="header"><h1>Regigteration form</h1><br></div>
+        <form action="#">
+
+        <div class="first_raw">   
+            <label for="">select city <br><input id="name" type="text" required placeholder="select city" class="select_city" ></label>
+            <label for="">select course or event <input id="name" type="text"  required  placeholder="select course or event" class="course"></label><br>
+        </div> 
+
+        <div class="second_raw">
+            <label for="">Full name <br><input id="name" type="text"  required placeholder="Full name" class="fullname"></label>
+            <label for="">Father name <input id="name" type="text"  required placeholder="Father name" class="fathername"></label><br>
+        </div>
+
+        <div class="third_raw">
+            <label for="">Email<br><input id="name" type="email"  required placeholder="Email" class="email" ></label>
+            <label for="">Phone <input id="name" type="number" maxlength="12" minlength="11" required placeholder="Phone" class="phone"></label><br>
+        </div>
+
+        <div class="fourth_raw">
+            <label for="">CNIC <br><input id="name" maxlength="13" type="text" required  placeholder="CNIC" class="cnic" ></label>
+            <label for="">Father's CNIC (optional) <input id="name" maxlength="13" type="text" required  placeholder="Father's CNIC (optional)" class="father_cnic" ></label><br>
+        </div>
+        <div class="fifth_raw">
+            <label for="">Date of birth<br><input id="name" type="date"  required placeholder="Date of birth"class="dob" ></label>
+            <label for="">Select gender 
+            <select name="Select gender" class="gender">
+            <option value="Select gender">Select gender</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            </select></label>
+        </div>
+        
+            <br>
+
+        
+            <label for="">Address <br><input id="name" type="text"  required placeholder="Address" class="address"></label><br>
+            <label for="">Last qualification <br> <input id="name" type="text"  required placeholder="Last qualification" class="Lastqualification"></label>
+            <label for=""><br>Do you have a Laptop?<br> <input id="name" type="text"  required placeholder="Do you have a Laptop?" class="laptop"></label>
+        <div class="picture_div">
+            <label for=""><br>Picture <br><input id="name" type="file" required  name="filename"></label>
+        </div>
+        
+        
+        
+        
+        <div class="end">
+                <p>
+                    <ul>
+                        <li type="1">I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the <br> established and future regulations and policies of SWIT </li>
+                                        <br>
+                        <li type="1">I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                                        <br>
+                        <li type="1">Defiance will render my admission canceled at any point in time.</li>
+                                        <br>
+                        <li type="1">Upon completion, of the course, I will complete the required project by SWIT.</li>
+                                        <br>
+                        <li type="1">It's mandatory for female students to wear abaya/hijab in the class</li>
+                                        <br>
+                    </ul>
+                </p>
+                <button type="submit" class="submit_btn" id="but" onclick="submitButton()" >Submit</button>
+            
+ 
+            
+        </form>
+       
+</div>
+</body>
+<script src="app.js"></script>
+</html>

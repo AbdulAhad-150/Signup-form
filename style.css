@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 5% 20% 5% 20%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: medium;
+
+}
+
+form{
+    border: 1px greenyellow; 
+}
+
+label{
+    color:black;
+} 
+
+.first_raw{
+ display: flex;
+}
+
+
+.select_city{
+   width:40vh;
+   height: 30px;
+}
+
+
+.course{
+    width:40vh;
+    height: 30px;
+}
+
+
+.second_raw{
+    display: flex;
+}
+.fullname{
+    width:40vh;
+    height: 30px;
+}
+
+.fathername{
+    width:40vh;
+    height: 30px;
+}
+
+.third_raw{
+    display: flex;
+}
+.email{
+    width:40vh;
+    height: 30px;
+}
+
+.phone{
+    width:40vh;
+    height: 30px;
+}
+
+
+.fourth_raw{
+    display: flex;
+}
+.cnic{
+    width:40vh;
+    height: 30px;
+}
+.father_cnic{
+    width:40vh;
+    height: 30px;
+}
+
+.fifth_raw{
+    display: flex;
+}
+.dob{
+    width:40vh;
+    height: 30px;
+}
+.gender{
+    margin-top: 6PX;
+    width: 44vh;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+
+
+input{
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 5px 10px 5px 10px;
+}
+
+.address{
+    width: 59.5vw;
+    height: 15px;
+}
+.Lastqualification{
+    width: 59.5vw;
+    height: 15px;
+}
+.laptop{
+    width: 59.5vw;
+    height: 15px; 
+}
+.picture_div{
+    margin: 5px;
+    padding: 50px;
+   border: 10px  red ;
+}
+.submit_btn{
+    width: 58vw;
+    height: 35px;
+    background-color: white;
+
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
